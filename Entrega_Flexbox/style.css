@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel';
+   
+  }
+
+body{
+
+    background-image: url(./assets/background/background.png);
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    background-size: cover;
+    color:white;
+    min-height: 100vh;
+    
+    
+
+   
+   
+}
+header{
+   
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 10vh;
+        flex-wrap: wrap;
+  
+      }
+
+.inicio{
+  display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+.navegador{
+  display: flex;
+    width: 100%;
+    height: auto;
+    justify-content:center;
+
+      }
+header .main_logo {
+    height: 30px;
+    width: auto;
+  }
+
+header .vector_icon {
+  height: 25px;
+  width: auto;
+  left: 150px;
+  justify-content:left;
+
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  header ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  header span{
+    color:white;
+  
+    
+  }
+ul{
+    list-style-type: none;
+}
+main{
+  min-height: 80vh;
+}
+
+/*HERO*/
+
+  #hero {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    top:auto;
+    position:relative;
+    min-height: 50vh;
+   
+  }
+ 
+  #hero > img{
+   
+    width: 40%;
+    max-width: 500px;
+    min-width: 300px;
+    float:right;
+    position: relative;
+
+  }
+  h1{
+    font-size: 48px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 18px;
+    
+  }
+
+  #heroes{
+   
+    display: flex;
+    flex-wrap: wrap;
+    top:auto;
+    bottom: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 30vh;
+    
+  }
+
+
+ .kratos{
+  
+  width: 150px;
+  height: 300px;
+  position:relative;
+  flex-wrap: wrap;
+  max-width: 500px;
+  min-width: 300px;
+  align-items: center;
+  left: 50px;
+
+
+ }
+ 
+h2{
+   
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+  
+   
+
+  }
+
+
+  button{
+    padding: 10px;
+    background-color: #7cc4f8;
+    color: black;
+    border-radius: 5px;
+    border:none;
+    font-size: 14px;
+    font-weight: bold;
+  
+ 
+  }
+  .buttons > button:first-child {
+    padding: 10px;
+    background-color: #7cc4f8;
+    color: black;
+    border-radius: 3px;
+    border:none;
+   
+}
+
+  .buttons > button:last-child {
+    padding: 10px;
+    background-color:black;
+    color: white;
+    border-radius: 3px;
+    border:none;
+  
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  margin:0;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  min-height: 10vh;
+  color:#7cc4f8;
+
+
+}
+footer a{
+  text-decoration: none;
+  color:#7cc4f8;
+}
+
+@media (max-width: 767px) {
+  .container,footer,.hero,.heroes{
+    flex-direction: column;
+  }
+  .inicio{
+    display: none;
+  }
+.navegador{
+  display:flex;
+  justify-content: center;
+}
+}
+
+
